@@ -39,6 +39,12 @@
                         <Label          x:Name="lbl_schräg"     Content="Schräg" Margin="0,210,118,10" FontFamily="Calibri Light" RenderTransformOrigin="0.817,3.239" Grid.Column="3"/>
                         <Label          x:Name="lbl_breite"     Content="Breite:" HorizontalAlignment="Left" Margin="0,143,0,0" VerticalAlignment="Top" FontFamily="Calibri Light" RenderTransformOrigin="-0.152,0.616"/>
                         <TextBox        x:Name="txb_breite_außen"       ToolTip="Breite des Zahnrads eingeben" HorizontalAlignment="Left" Margin="100,145,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" Height="25" Grid.ColumnSpan="4" FontFamily="Calibri Light"/>
+                        <RadioButton    x:Name="rdbtn_keinebohrung"  Margin="0,250,0,0"  Grid.ColumnSpan="2"/>
+                        <Label          x:Name="lbl_keinebohrung" HorizontalAlignment="Left" Margin=" 20,240,10,0" Content="Keine Bohrung" Width="110" FontFamily="Calibri Light" Grid.ColumnSpan="3" />
+                        <RadioButton    x:Name="rdbtn_bohrung" Margin="140,250,0,0"  Grid.ColumnSpan="2"/>
+                        <Label          x:Name="lbl_bohrung" Content="Bohrung" Width="90" Margin=" 160,240,0,0"  HorizontalAlignment="Left" FontFamily="Calibri Light" Grid.ColumnSpan="3" />
+                        <RadioButton    x:Name="rdbtn_bohrung_mit_passfedernut" Margin="0,280,0,0 " Grid.ColumnSpan="2"/>
+                        <Label          x:Name="lbl_bohrong_mit_passfedernut" Width="180"  Margin="20,270,0,0" Content="Bohrung mit Passfedernut" HorizontalAlignment="Left" FontFamily="Calibri Light" Grid.ColumnSpan="3"/>
                     </Grid>
 
                     <!-- if schräg -->
